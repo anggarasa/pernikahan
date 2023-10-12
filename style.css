@@ -24,7 +24,7 @@ main {
     background-image: url(img/kiss.jfif);
     z-index: -1;
     background-size: cover;
-    background-position: 0 -260px;
+    background-position: bottom;
 }
 .hero {
     position: relative;
@@ -64,6 +64,7 @@ main {
 }
 
 .mynavbar .offcanvas{
+    width: 40vh;
     height: 100vh;
 }
 .mynavbar .navbar-brand, 
@@ -78,12 +79,13 @@ main {
 }
 
 .home{
-    background-image: url(img/hd.png);
+    background-image: url(img/sa.jpg);
     background-size: cover;
     min-height: 100vh;
     margin-top: -6rem;
     padding-top: 15rem;
     padding-bottom: 5rem;
+    background-position: center;
 }
 
 .home h2, 
@@ -143,8 +145,9 @@ main {
 }
 
 .Info {
-    background-image: url(img/hd.png);
+    background-image: url(img/sa.jpg);
     background-size: cover;
+    background-position: center;
     color: black;
     padding-top: 10rem;
     padding-bottom: 8rem;
@@ -474,5 +477,6 @@ footer li {
     .timeline li .timeline-panel::after {
         top: 26px;
     }
+
 
 }
