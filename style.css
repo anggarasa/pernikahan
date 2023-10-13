@@ -64,7 +64,7 @@ main {
 }
 
 .mynavbar .offcanvas{
-    width: 40vh;
+    width: 30vh;
     height: 100vh;
 }
 .mynavbar .navbar-brand, 
@@ -175,6 +175,22 @@ main {
     color: #856337 !important;
     border: 1px solid black;
 }
+
+.Info .card-header {
+    border-bottom: 1px solid black;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.Info .card-body {
+    font-size: 1rem;
+}
+
+.Info .card-footer {
+    border-top: 1px solid black;
+    font-size: 1rem;
+}
+
 
 
 .story, 
@@ -428,6 +444,20 @@ footer li {
     html{
         font-size: 62.5%;
     }
+
+    .hero::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(img/kiss.jfif);
+        z-index: -1;
+        background-size: cover;
+        background-position: 0;
+    }
+
     .simply-countdown>.simply-section{
         padding: 60px;
         margin: 5px;
@@ -448,6 +478,20 @@ footer li {
     html {
         font-size: 60%;
     }
+
+    .hero::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(img/kiss.jfif);
+        z-index: -1;
+        background-size: cover;
+        background-position: 450px;
+    }
+
     .simply-countdown>.simply-section{
         padding: 30px;
         margin: 3px;
