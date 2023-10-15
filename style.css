@@ -59,12 +59,12 @@ main {
 }
 
 .mynavbar{
-    background-color: white;
+    background-color: rgb(252, 236, 231);
     border-bottom: 1.5px solid #27374D;
 }
 
 .mynavbar .offcanvas{
-    width: 30vh;
+    width: 35vh;
     height: 100vh;
 }
 .mynavbar .navbar-brand, 
@@ -79,7 +79,7 @@ main {
 }
 
 .home{
-    background-image: url(img/a\ \(3\).jpg);
+    background-image: url(img/a\ \(2\).jpg);
     background-size: cover;
     min-height: 100vh;
     margin-top: -6rem;
@@ -145,7 +145,7 @@ main {
 }
 
 .Info {
-    background-image: url(img/a\ \(1\).jpg);
+    background-image: url(img/a\ \(2\).jpg);
     background-size: cover;
     background-position: center;
     color: black;
@@ -462,8 +462,6 @@ footer li {
         padding: 30px;
         margin: 5px;
     }
-
-    
 
 .timeline li .timeline-image {
     width: 130px;
