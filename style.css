@@ -79,7 +79,7 @@ main {
 }
 
 .home{
-    background-image: url(img/sa.jpg);
+    background-image: url(img/a\ \(3\).jpg);
     background-size: cover;
     min-height: 100vh;
     margin-top: -6rem;
@@ -145,7 +145,7 @@ main {
 }
 
 .Info {
-    background-image: url(img/sa.jpg);
+    background-image: url(img/a\ \(1\).jpg);
     background-size: cover;
     background-position: center;
     color: black;
