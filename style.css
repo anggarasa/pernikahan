@@ -400,7 +400,7 @@ footer li {
         font-size: 75%;
     }
     .simply-countdown>.simply-section{
-        padding: 70px;
+        padding: 55px;
     }
 
     .home .heart {
@@ -440,7 +440,7 @@ footer li {
 }
 
 /* tablet */
-@media (max-width: 768px) {
+@media (max-width: 538px) {
     html{
         font-size: 62.5%;
     }
@@ -455,11 +455,11 @@ footer li {
         background-image: url(img/kiss.jfif);
         z-index: -1;
         background-size: cover;
-        background-position: 0;
+        background-position: 538px;
     }
 
     .simply-countdown>.simply-section{
-        padding: 60px;
+        padding: 30px;
         margin: 5px;
     }
 
@@ -474,7 +474,7 @@ footer li {
 }
 
 /* mobile phone */
-@media (max-width: 576px) {
+@media (max-width: 300px) {
     html {
         font-size: 60%;
     }
@@ -489,7 +489,7 @@ footer li {
         background-image: url(img/kiss.jfif);
         z-index: -1;
         background-size: cover;
-        background-position: 450px;
+        background-position: 400px;
     }
 
     .simply-countdown>.simply-section{
